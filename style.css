@@ -14,7 +14,7 @@ body {
 
 /* Navigation */
 .navbar {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -33,7 +33,7 @@ body {
 }
 
 .nav-logo h2 {
-    color: #f4d03f;
+    color: #16a34a;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -51,11 +51,11 @@ body {
 }
 
 .nav-link:hover {
-    color: #f4d03f;
+    color: #16a34a;
 }
 
 .nav-link.active {
-    color: #f4d03f;
+    color: #16a34a;
     font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(45deg, transparent 0%, rgba(244, 208, 63, 0.1) 100%);
+    background: linear-gradient(45deg, transparent 0%, rgba(22, 163, 74, 0.15) 100%);
     clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -113,7 +113,7 @@ body {
 .ministry-title {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #f4d03f;
+    color: #16a34a;
     text-align: center;
     font-weight: bold;
 }
@@ -128,15 +128,16 @@ body {
 .hero-subtitle {
     font-size: 1.3rem;
     margin-bottom: 2rem;
-    color: #f8f9fa;
+    color: #f1f5f9;
 }
 
 .hero-info {
-    background: rgba(30, 60, 114, 0.9);
+    background: rgba(30, 64, 175, 0.9);
     padding: 2rem;
     border-radius: 15px;
     margin-bottom: 2rem;
     backdrop-filter: blur(10px);
+    border: 1px solid rgba(22, 163, 74, 0.3);
 }
 
 .info-grid {
@@ -153,14 +154,14 @@ body {
 }
 
 .info-item i {
-    color: #f4d03f;
+    color: #16a34a;
     font-size: 1.2rem;
 }
 
 .investment {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #f4d03f;
+    color: #16a34a;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -197,13 +198,13 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #f4d03f 0%, #f39c12 100%);
-    color: #333;
+    background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+    color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(244, 208, 63, 0.3);
+    box-shadow: 0 10px 20px rgba(22, 163, 74, 0.3);
 }
 
 .btn-secondary {
@@ -226,8 +227,8 @@ body {
 
 .torch-container {
     font-size: 8rem;
-    color: #f4d03f;
-    text-shadow: 0 0 30px rgba(244, 208, 63, 0.5);
+    color: #16a34a;
+    text-shadow: 0 0 30px rgba(22, 163, 74, 0.5);
     animation: float 3s ease-in-out infinite;
     transform: rotate(0deg);
 }
@@ -248,13 +249,13 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #1e3c72;
+    color: #1e40af;
 }
 
 /* About Section */
 .about {
     padding: 5rem 0;
-    background: #f8f9fa;
+    background: #fefdf8;
 }
 
 .about-content {
@@ -270,17 +271,18 @@ body {
 }
 
 .topic-highlight {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
     color: white;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
+    border: 2px solid #16a34a;
 }
 
 .topic-highlight h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #f4d03f;
+    color: #16a34a;
 }
 
 .bible-verse {
@@ -292,7 +294,7 @@ body {
 /* Speakers Section */
 .speakers {
     padding: 5rem 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
     color: white;
 }
 
@@ -321,15 +323,16 @@ body {
 .speaker-image {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, #f4d03f 0%, #f39c12 100%);
+    background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
     border-radius: 50%;
     margin: 0 auto 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    color: #333;
+    color: white;
     overflow: hidden;
+    border: 3px solid #fefdf8;
 }
 
 .speaker-image img {
@@ -343,13 +346,13 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #f4d03f;
+    color: #16a34a;
 }
 
 .speaker-title {
     font-size: 1.1rem;
     margin-bottom: 1rem;
-    color: #e8f4f8;
+    color: #fefdf8;
 }
 
 .speaker-details {
@@ -373,14 +376,14 @@ body {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #f4d03f;
+    color: #16a34a;
     font-weight: bold;
 }
 
 /* Event Details Section */
 .event-details {
     padding: 5rem 0;
-    background: #fff;
+    background: #fefdf8;
 }
 
 .details-grid {
@@ -391,7 +394,7 @@ body {
 }
 
 .detail-card {
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
     color: white;
     padding: 2rem;
     border-radius: 15px;
@@ -399,11 +402,12 @@ body {
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease;
+    border: 2px solid #16a34a;
 }
 
 .detail-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(30, 60, 114, 0.3);
+    box-shadow: 0 15px 30px rgba(30, 64, 175, 0.3);
 }
 
 .detail-card::before {
@@ -413,20 +417,20 @@ body {
     right: -50%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, rgba(244, 208, 63, 0.1));
+    background: linear-gradient(45deg, transparent, rgba(22, 163, 74, 0.1));
     transform: rotate(45deg);
 }
 
 .detail-icon {
     font-size: 3rem;
-    color: #f4d03f;
+    color: #16a34a;
     margin-bottom: 1rem;
 }
 
 .detail-title {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #f4d03f;
+    color: #16a34a;
 }
 
 .detail-content {
@@ -436,7 +440,7 @@ body {
 
 /* QR Section */
 .qr-section {
-    background: linear-gradient(135deg, #f4d03f 0%, #f39c12 100%);
+    background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
     padding: 3rem 0;
     text-align: center;
 }
@@ -449,28 +453,28 @@ body {
 
 .qr-title {
     font-size: 2rem;
-    color: #333;
+    color: white;
     margin-bottom: 1rem;
 }
 
 .qr-subtitle {
     font-size: 1.2rem;
-    color: #555;
+    color: #fefdf8;
     margin-bottom: 2rem;
 }
 
 .qr-placeholder {
     width: 200px;
     height: 200px;
-    background: white;
-    border: 5px solid #333;
+    background: #fefdf8;
+    border: 5px solid #1e40af;
     border-radius: 15px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    color: #333;
+    color: #1e40af;
 }
 
 .qr-placeholder img {
@@ -496,7 +500,7 @@ body {
 }
 
 .footer-section h3 {
-    color: #f4d03f;
+    color: #16a34a;
     margin-bottom: 1rem;
 }
 
@@ -535,7 +539,7 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: #1e3c72;
+        background: #1e40af;
         width: 100%;
         text-align: center;
         transition: 0.3s;
